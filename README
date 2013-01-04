@@ -6,8 +6,8 @@ Bicubic
 画像を拡大して保存した場合に、ギザギザが出てしまいます。このソフトは、バイキュービック法を用いてギザギザを最小限に抑えて拡大/縮小します。
 
 * License : GPL v3
-* Author : curlc
-* Copyright : curlc 2012
+* Author : zirrusc
+* Copyright : zirrusc 2012
 
-site : https://sites.google.com/site/curlcloud/app/bicubic
-contact : https://twitter.com/curlcloud
+site : https://sites.google.com/site/zirrusc/app/bicubic
+contact : https://twitter.com/zirrusc
