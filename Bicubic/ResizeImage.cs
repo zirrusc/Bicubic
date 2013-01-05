@@ -15,7 +15,11 @@ namespace Bicubic
 		public static readonly string[] SupportGifExtension = { ".gif" };
 		public static readonly string[] SupportTiffExtension = { ".tiff", ".tif" };
 		public static readonly string[] SupportPngExtension = { ".png" };
-		public static readonly string SupportExtensionFilter = "サポートするすべての画像ファイル|*.bmp;*.dib;*.rle;*.jpg;*.jpeg;*.jpe;*.jfif;*.gif;*.tif;*.tiff|ビットマップファイル|*.bmp;*.dib;*.rle|Jpeg ファイル|*.jpg;*.jpeg;*.jpe;*.jfif|Gif ファイル|*.gif|Tiff ファイル|*.tif;*.tiff|PNG ファイル|*.png";
+		public static readonly string SupportExtensionFilter = 
+			"サポートするすべての画像ファイル|*.bmp;*.dib;*.rle;*.jpg;*.jpeg;*.jpe;*.jfif;*.gif;*.tif;*.tiff|" + 
+			"ビットマップファイル|*.bmp;*.dib;*.rle|" + 
+			"Jpeg ファイル|*.jpg;*.jpeg;*.jpe;*.jfif|" + 
+			"Gif ファイル|*.gif|Tiff ファイル|*.tif;*.tiff|PNG ファイル|*.png";
 
 		public Bitmap BeforeImage { private set; get; }
 		public Bitmap AfterImage { private set; get; }
